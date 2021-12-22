@@ -1,0 +1,52 @@
+@media (max-width: 1162px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 928px) {
+  html {
+    font-size: 43.75%;
+  }
+  .col-md-12 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 540px) {
+  .right-side {
+    display: none;
+  }
+  .left-side {
+    width: 100%;
+  }
+  .myimage-left {
+    display: block;
+  }
+  .hireMeDownloadMyCv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+  }
+  .btn {
+    width: 60%;
+    margin-right: 0;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+  .main-nav {
+    display: none;
+  }
+  .conversation {
+    padding: 2rem;
+    border-radius: 0;
+  }
+  #form {
+    width: 100%;
+  }
+  .location2 {
+    display: flex;
+  }
+}
